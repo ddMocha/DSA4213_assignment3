@@ -34,7 +34,7 @@ The project compares **Full Fine-tuning** and **LoRA (Low-Rank Adaptation)** on 
 
 ## 3. Environment Configuration
 
-All experiments were run on **AutoDL Cloud Platform** with the following setup:
+All experiments were run with the following setup:
 
 | Component | Specification |
 |------------|----------------|
