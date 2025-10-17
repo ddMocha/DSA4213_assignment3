@@ -1,0 +1,12 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "dataset": "imdb",
+  "method": "full",
+  "lr": 2e-5,
+  "bsz": 16,
+  "epochs": 5,
+  "max_length": 256,
+  "seed": 42,
+  "out_dir": "runs/full_ft_imdb_3",
+  "train_subset": null
+}

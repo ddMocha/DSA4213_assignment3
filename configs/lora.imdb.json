@@ -1,0 +1,20 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "dataset": "imdb",
+  "method": "lora",
+  "lr": 0.00002,
+  "bsz": 16,
+  "epochs": 5,
+  "max_length": 256,
+  "seed": 42,
+  "out_dir": "runs/lora_imdb_r8_2",
+  "train_subset": null,
+  "lora": {
+    "r": 8,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "target_modules": ["q_lin", "v_lin"],   
+    "bias": "none",
+    "task_type": "SEQ_CLS"
+  }
+}
