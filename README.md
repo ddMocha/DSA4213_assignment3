@@ -93,9 +93,5 @@ Example predictions will be written to `runs/lora_imdb/examples.csv` (or similar
 
 LoRA achieves **~75× fewer parameters** with comparable accuracy.
 
----
 
-**Author:** Yao Kaiwen  
-**Course:** NUS DSA4213 
-**Date:** October 2025
 
