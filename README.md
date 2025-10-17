@@ -89,7 +89,7 @@ Example predictions will be written to `runs/lora_imdb/examples.csv` (or similar
 | Method | Accuracy | GPU (MB) | Trainable Params |
 |--------|-----------|----------|------------------|
 | Full Fine-tuning | ~0.91 | 2200 | 66.96M |
-| LoRA (r=8) | ~0.90 | 1600 | 0.887M |
+| LoRA (r=8) | ~0.89 | 1600 | 0.887M |
 
 LoRA achieves **~75× fewer parameters** with comparable accuracy.
 
